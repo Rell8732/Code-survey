@@ -1,0 +1,51 @@
+/************SELECTORS***********/
+
+body {
+  text-align: center;
+  background-image: url("https://cdn-media-1.freecodecamp.org/images/1*94q4HJ10s6rtvhLcQQuMRw.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+}
+
+
+/************ID SELECTORS***********/
+
+#comments {
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+}
+
+#title {
+  color: black;
+
+}
+
+#description {
+  color: black;
+}
+
+/************CLASS SELECTORS***********/
+
+.mytext {
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+.form-div {
+  text-align: left;
+  background: rgba(170, 156, 165, 0.9);
+  margin: auto 20%;
+  padding: 5% 10%;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
