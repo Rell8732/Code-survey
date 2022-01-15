@@ -1,15 +1,14 @@
-/************SELECTORS***********/
+/***************SELECTORS************/
 
 body {
   text-align: center;
-  background-image: url("https://cdn-media-1.freecodecamp.org/images/1*94q4HJ10s6rtvhLcQQuMRw.png");
+  background: url("https://cdn-media-1.freecodecamp.org/images/1*94q4HJ10s6rtvhLcQQuMRw.png")
+    center/cover;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
   font-family: Helvetica, sans-serif;
 }
-
 
 /************ID SELECTORS***********/
 
@@ -25,12 +24,12 @@ body {
 }
 
 #title {
-  color: black;
-
+  color: white;
+  margin-top: 0;
 }
 
 #description {
-  color: black;
+  color: white;
 }
 
 /************CLASS SELECTORS***********/
@@ -43,9 +42,12 @@ body {
 .form-div {
   text-align: left;
   background: rgba(170, 156, 165, 0.9);
-  margin: auto 20%;
-  padding: 5% 10%;
+  margin: 0 20% 0 20%;
+  padding: 5% 10% 5% 10%;
   color: white;
   font-family: Helvetica, sans-serif;
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
